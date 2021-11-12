@@ -134,9 +134,9 @@ function closepopup() {
 function openPopup(id = 0) {
   // popbackground
   const popupBackground = document.createElement('div');
-  popupWrapper.appendChild(popupBackground);
-  popupBackground.className = 'proj_background';
-  popupBackground.addEventListener('click', closepopup);
+  popupWrapper.appendChild(popupBg);
+  popupBg.className = 'proj_background';
+  popupBg.addEventListener('click', closepopup);
 
   // popupcard
   const popupcard = document.createElement('div');
