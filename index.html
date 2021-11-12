@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Humaira Zaman's Portfolio</title>
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Humaira Zaman">
+    <meta name="keywords" content="potfolio html css coding microverse">
+
+    <meta property="og:title" content="Humaira Zaman's Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:description" content="Setting up a default portfolio according to template.">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="license" href="LICENSE">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <script src="scripts/script.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q357Z2DNB4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { window.dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Q357Z2DNB4');
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header and Nav menu -->
+        <header>
+            <nav class="top-nav">
+                <a id="logo" class="mobile-only" href="#first-page">Welcome</a>
+                <button type="button" class="mobile-only" id="open_nav_btn">&#9776;</button>
+                <button type="button" class="mobile-only" id="close_nav_btn"><b>X</b></button>
+                <ul id="drop-menu" class="drop-menu">
+                    <li><a class="menuItem" href="#first-page">Hello</a></li>
+                    <li><a class="menuItem" href="#second-page">Portfolio</a></li>
+                    <li><a class="menuItem" href="#main-about">About</a></li>
+                    <li><a class="menuItem" href="#contact-me">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Main Page -->
+            <section class="main-page" id="first-page">
+                <h1>Hey there. I’m <span id="my-name">Humaira</span><br> <span id="developer">I’m a software
+                        developer</span></h1>
+                <p> I can help you build a product, feature or website Look through some of my work and experience!
+                    If you like what you see and have a project you need coded,
+                    don’t hestiate to contact me.</p>
+                <nav class="nav-bar-bot">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/hmemaz"><img src="images/twitter.png" alt="Twitter icon"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/hmemaz1994/"><img src="images/Linkedin-icon.png"
+                                    alt="Linkedin icon"></a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/"><img src="images/medium.png" alt="Medium icon"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/qwibbler"><img src="images/github.png" alt="Github icon"></a>
+                        </li>
+                        <li>
+                            <a href="https://angel.co/"><img src="images/angellist.png" alt="AngelList icon"></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="more"><a href="#second-page"><img id="more-v" src="images/more-v.svg" alt="Next page"></a>
+                </div>
+            </section>
+            <!-- Project Page -->
+            <section class="project-page" id="second-page">
+                <header>
+                    <h2 id="recent-works">My Recent Works</h2>
+                    <hr class="separate">
+                </header>
+                <div class="projects" id="projects">
+                    <!-- Sample project -->
+                    <!-- <div class="proj">
+                        <div class="proj-text">
+                            <h4>Multi-Post Stories Gain+Glory</h4>
+                            <ul>
+                                <li>Ruby on rails</li>
+                                <li>css</li>
+                                <li>JavScript</li>
+                                <li>html</li>
+                            </ul>
+                            <button type="button">See Project</button>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="project_cards" id="popupWrapper">
+                    <!-- Sample popupcard -->
+                    <!-- <div class="proj_background"></div>
+                    <div class="proj_card" id="card1">
+                        <button type="button" class="close_card">X</button>
+                        <img src="images/Snapshoot-Portfolio-components.jpg" alt="Project Picture"
+                                class="proj_img">
+                        <h3 class="proj_title">Keeping track of hundreds of components</h3>
+                        <ul class="proj_langs">
+                            <li>Ruby on Rails</li>
+                            <li>Css</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <p class="proj_desc">Lorem Ipsum</p>
+                        <div class="proj_see">
+                            <button type="button" class="live green">See live <img src="images/Live.svg"
+                                    alt=""></button>
+                            <button type="button" class="src green">See Source <img src="images/live-github.svg"
+                                    alt=""></button>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            <!-- About Page -->
+            <section class="about-page">
+                <div id="main-about">
+                    <h2 id="about-me">About Me</h2>
+                    <hr class="separate">
+                    <p> I can help you build a product, feature or website Look through some of my work and experience!
+                        If
+                        you like what you see and have a project you need coded,
+                        don’t hestiate to contact me.</p>
+                    <button type="button">Get My Resume</button>
+                </div>
+                <div class="skill-cards">
+                    <div class="card">
+                        <img src="images/Icon-Langguage.svg" alt="">
+                        <h4>Languages</h4>
+                        <ul class="card-ul">
+                            <li class="card-li">JavaScript</li>
+                            <li class="card-li">Ruby</li>
+                            <li class="card-li">Html</li>
+                            <li class="card-li">css</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="images/Icon-Name.svg" alt="">
+                        <h4>Frameworks</h4>
+                        <ul class="card-ul">
+                            <li class="card-li">Bootstrap</li>
+                            <li class="card-li">Ruby on rails</li>
+                            <li class="card-li">RSpec</li>
+                            <li class="card-li">Capybara</li>
+                            <li class="card-li">Selenium</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="images/Icon_skills.svg" alt="">
+                        <h4>Skills</h4>
+                        <ul class="card-ul">
+                            <li class="card-li">Codekit</li>
+                            <li class="card-li">GitHub</li>
+                            <li class="card-li">Codepen</li>
+                            <li class="card-li">Gitlab</li>
+                            <li class="card-li">Terminal</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Page -->
+            <section class="contact-page" id="contact-me">
+                <header>
+                    <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in
+                        touch.</h2>
+                </header>
+                <form id="contact-form" action="https://formspree.io/f/moqyzrzd" method="post">
+                    <ul>
+                        <li>
+                            <label class="form-label" for="username">Name:</label>
+                            <input type="text" id="username" name="user-name" placeholder="Full Name" maxlength="30"
+                                required>
+                        </li>
+                        <li>
+                            <label class="form-label" for="useremail">Email:</label>
+                            <input type="email" id="useremail" name="user-email" placeholder="Email address" required>
+                        </li>
+                        <li>
+                            <label class="form-label" for="comment">Message:</label>
+                            <textarea name="msg" id="comment" maxlength="500" placeholder="Enter text here"
+                                required></textarea>
+                        </li>
+                    </ul>
+                    <button type="submit">Get in touch</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="end-page">
+            <nav class="nav-bar-bot">
+                <ul id="nav-list">
+                    <li>
+                        <a href="https://twitter.com/hmemaz"><img src="images/twitter.png" alt="Twitter icon"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/hmemaz1994/"><img src="images/Linkedin-icon.png"
+                                alt="Linkedin icon"></a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/"><img src="images/medium.png" alt="Medium icon"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/qwibbler"><img src="images/github.png" alt="Github icon"></a>
+                    </li>
+                    <li>
+                        <a href="https://angel.co/"><img src="images/angellist.png" alt="AngelList icon"></a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="my-email mobile-only" href="#">hmemaz@gmail.com</a>
+            <hr class="ender mobile-only">
+        </footer>
+    </div>
+</body>
