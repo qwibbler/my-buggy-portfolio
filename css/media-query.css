@@ -1,0 +1,216 @@
+@media (min-width: 1080px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 0;
+  }
+
+  .drop-menu {
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    padding: 0;
+    margin-top: 0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .drop-menu li {
+    display: flex;
+    margin: 0;
+  }
+
+  .drop-menu a {
+    display: initial;
+    padding: 10px 12px;
+    font-size: 15px;
+    line-height: 133%;
+    text-align: center;
+    color: #344563;
+    width: auto;
+  }
+
+  /*
+  ***MAIN PAGE***
+  */
+
+  .main-page {
+    margin-top: 0;
+    background-image: url(../images/Header-llustration-desktop@2x.svg);
+  }
+
+  .main-page h1 {
+    margin: 232px 260px 24px 260px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 125%;
+    max-width: 920px;
+  }
+
+  .main-page p {
+    max-width: 920px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .nav-bar-bot ul {
+    width: 200px;
+    justify-content: space-around;
+  }
+
+  #more {
+    margin-top: 91px;
+    margin-bottom: 495px;
+  }
+
+  /*
+      ***PROJECT PAGE***
+  */
+
+  .separate {
+    margin-bottom: 0;
+  }
+
+  .projects {
+    margin-top: 28px;
+  }
+
+  /* POPUP */
+  .proj_card {
+    max-width: 920px;
+    max-height: 1083px;
+    margin: auto;
+    top: calc(height / 2);
+    left: calc(width / 2);
+  }
+
+  .close_card {
+    position: initial;
+    background: #67798e;
+    mix-blend-mode: multiply;
+    border-radius: 8px;
+    padding: 14px;
+
+    /* justify-self: flex-end; */
+    align-self: flex-end;
+    margin: 24px 24px 0 0;
+    order: 0;
+  }
+
+  .proj_img {
+    margin: 14px 24px 0 24px;
+    order: 1;
+  }
+
+  .proj_see {
+    margin: 24px 13px 0 0;
+    order: 2;
+    align-self: flex-end;
+  }
+
+  .proj_see button {
+    margin: 0 12px 0 0;
+  }
+
+  .proj_title {
+    margin: -49.5px 12px 20px 26px;
+    order: 3;
+    align-self: flex-start;
+  }
+
+  .proj_langs {
+    margin: 20px 0 0 24px;
+    order: 4;
+  }
+
+  .proj_desc {
+    margin: 36px 24px 44px 24px;
+    order: 5;
+  }
+
+  /*
+    ***ABOUT PAGE***
+  */
+
+  .about-page {
+    margin-top: 88px;
+    background-image: url(../images/desktop-about-right.svg);
+  }
+
+  #main-about {
+    background-image: url(../images/illustration-about-me-2-desktop@2x.svg);
+    background-position: bottom 29px left;
+    margin-bottom: 28px;
+  }
+
+  .about-page h2 {
+    margin-top: 78px;
+    margin-bottom: 24px;
+  }
+
+  .about-page p {
+    max-width: 920px;
+    margin-left: 224px;
+    margin-right: 224px;
+  }
+
+  .about-page button {
+    margin: 0;
+  }
+
+  /*
+    ***CONTACT PAGE***
+  */
+
+  .contact-page {
+    grid-template-columns: 1fr 2fr;
+    gap: 24px;
+    align-items: center;
+    width: 100vw;
+    padding: 148px 7% 225px 7%;
+    background-image: url(../images/contact-left-1@2x.svg), url(../images/contact-bottom-desktop@2x.svg), url(../images/contact-right@2x.svg);
+    background-position: bottom left, bottom center, bottom right;
+  }
+
+  .contact-page h2 {
+    margin: 0 24px 0 0;
+  }
+
+  #contact-form {
+    width: auto;
+    align-items: flex-start;
+  }
+
+  #contact-form ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #contact-form button {
+    margin: 0;
+  }
+
+  small {
+    margin-bottom: 0;
+  }
+
+  /*
+    ***FOOTER***
+  */
+
+  footer { border-top: 1px solid #dfe1e6; }
+
+  .my-email { display: none; }
+
+  .ender { display: none; }
+}
